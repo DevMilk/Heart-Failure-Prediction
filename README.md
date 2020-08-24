@@ -3,25 +3,25 @@ Data Analysis and Machine Learning Classification Work for Classifying Death Con
 
 Features:
 
-1. age: age of person
+1. **age** : age of person
 
-1. anaemia: Decrease of red blood cells or hemoglobin (boolean)
+1. **anaemia** : Decrease of red blood cells or hemoglobin (boolean)
 
-1. creatinine_phosphokinase: Level of the CPK enzyme in the blood (mcg/L)
+1. **creatinine_phosphokinase** : Level of the CPK enzyme in the blood (mcg/L)
 
-1. diabetes: If the patient has diabetes (boolean)
+1. **diabetes** : If the patient has diabetes (boolean)
 
-1. ejection_fraction: Percentage of blood leaving the heart at each contraction (percentage)
+1. **ejection_fraction** : Percentage of blood leaving the heart at each contraction (percentage)
 
-1. high_blood_pressure: If the patient has hypertension (boolean)
+1. **high_blood_pressure** : If the patient has hypertension (boolean)
 
-1. platelets: Platelets in the blood (kiloplatelets/mL)
+1. **platelets** : Platelets in the blood (kiloplatelets/mL)
 
-1. serum_creatinine: Level of serum creatinine in the blood (mg/dL)
+1. **serum_creatinine** : Level of serum creatinine in the blood (mg/dL)
 
-1. serum_sodium: Level of serum sodium in the blood (mEq/L)
+1. **serum_sodium** : Level of serum sodium in the blood (mEq/L)
 
-1. time: Follow-up period (days)
+1. **time** : Follow-up period (days)
 
 
 ---
@@ -48,13 +48,13 @@ Features:
 
 ### Classification 
 
-1. Training data balanced for classification using oversampling on minority class
+1. Training data balanced for classification using ***oversampling*** on minority class
 
-1. Bagging Classifier and Random Forest Classifier gets %90 accuracy on validation data that is 20 percent of the original data
+1. ***Bagging Classifier*** and ***Random Forest Classifier*** gets %90 accuracy on validation data that is 20 percent of the original data
 
-1. Gradient Boost Classifier gets %95 accuracy on validation data, with %93 precision on deceased and 100% precision on survivors.
+1. ***Gradient Boost Classifier*** gets %95 accuracy on validation data, with %93 precision on deceased and 100% precision on survivors.
 
-1. Stacking Gradient Boost Classifier and Random Forest Classifier using Support Vector Classifier as Estimator gets same result as before 
+1. ***Stacking*** ***Gradient Boost Classifier*** and ***Random Forest Classifier*** using ***Support Vector Classifier*** as Estimator gets same result as before 
 
 1. Without using time feature, model can reach up to %80 accuracy
 
